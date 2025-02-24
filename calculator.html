@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="col">
+        <input type="text" id="input" class="out" size="30" value=" " readonly>
+        <div id="buttons">
+            <button class="but" onclick="concact('9')">9</button>
+            <button class="but" onclick="concact('8')">8</button>
+            <button class="but" onclick="concact('7')">7</button>
+            <button class="but" onclick="concact('+')">+</button>
+            <button class="but" onclick="concact('6')">6</button>
+            <button class="but" onclick="concact('5')">5</button>
+            <button class="but" onclick="concact('4')">4</button>
+            <button class="but" onclick="concact('-')">-</button>
+            <button class="but" onclick="concact('3')">3</button>
+            <button class="but" onclick="concact('2')">2</button>
+            <button class="but" onclick="concact('1')">1</button>
+            <button class="but" onclick="concact('*')">*</button>
+            <button class="but" onclick="concact('/')">/</button>
+            <button class="but" onclick="concact('.')">.</button>
+            <button class="but" onclick="concact('0')">0</button>
+            <button class="but" onclick="calculate()">=</button>
+            <button class="but" onclick="clearInput()">C</button>
+
+        </div> 
+</div>
+<script src="calc.js"></script>
+</body>
+</html>
